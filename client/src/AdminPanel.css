@@ -1,0 +1,56 @@
+.admin-panel {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    min-height: 100vh;
+  }
+  
+  .admin-panel h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .filter-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  .log-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .log-table th,
+  .log-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .log-table th {
+    background-color: #e9eff5;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .even-row {
+    background-color: #fcfcfc;
+  }
+  
+  .odd-row {
+    background-color: #f0f4f8;
+  }
+  
+  .log-table tr:hover {
+    background-color: #dbefff;
+    transition: 0.2s;
+  }
+  
